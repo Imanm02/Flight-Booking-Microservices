@@ -72,7 +72,7 @@ Use for testing `/flights` API
 
 ---
 
-#### Purchase tickets history
+#### Post a transaction
 
 Use for testing `/dashboard/tickets` API
 
@@ -93,7 +93,7 @@ Use for testing `/dashboard/tickets` API
 
 ## Performance Test
 
-Use **_locust_** tool for testng
+Use **_locust_** tool for testing
 
 #### Single User
 
@@ -101,7 +101,7 @@ Single user sending request with 1 to 4 seconds wait time.
 
 
 <p><img src="assets/singleUser/total_requests_per_second_single_user.png" alt="total request per second"></p>
-<p><img src="assets/total_requests_per_second_auth.png" alt="response times for single user"></p>
+<p><img src="assets/singleUser/response_times_(ms)_single_user.png" alt="response times for single user"></p>
 
 
 #### Multi User
